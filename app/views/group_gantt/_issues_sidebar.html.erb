@@ -1,0 +1,3 @@
+<% if User.current.allowed_to?(:show_group_gantt, @project, :global => true) %>
+  <%= link_to(l(:plugin_title), :controller => 'group_gantt', :action => 'show', :project_id => @project) %><br />
+<% end %>

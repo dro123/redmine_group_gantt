@@ -1,0 +1,5 @@
+# German strings go here for Rails i18n
+de:
+  project_module_group_gantt: "Gruppiertes Gantt Diagramm"
+  permission_show_group_gantt: "Gruppiertes Gantt Diagramm ansehen"
+  plugin_title: "Gantt Diagramm"
